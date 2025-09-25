@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Dependent Child Visa (Subclass 445) | Prime Pacific Consultancy",
+  description:
+    "Expert advice on the Dependent Child Visa (Subclass 445) for Australia. Learn about eligibility, process, and temporary residency support for dependent children from Prime Pacific Consultancy.",
+};
 
 const SubclassDependentChildVisa = () => {
   return (

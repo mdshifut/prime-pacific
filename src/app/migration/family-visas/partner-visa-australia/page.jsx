@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Partner Visa Australia | Prime Consultancy Consultancy",
+  description:
+    "Professional advice and support for Partner Visa Australia applications.",
+};
 
 const PartnerVisaAustralia = () => {
   return (

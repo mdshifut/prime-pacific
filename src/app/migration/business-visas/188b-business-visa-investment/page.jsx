@@ -4,6 +4,12 @@ import React from "react";
 
 import GeneralContent from "@/components/GeneralContent";
 
+export const metadata = {
+  title: "188B Business Visa Investment | Prime Pacific Consultancy",
+  description:
+    "Information and expert guidance for the 188B Business Innovation and Investment (Provisional) visa in Australia.",
+};
+
 const BusinessVisaInvestment = () => {
   return (
     <>

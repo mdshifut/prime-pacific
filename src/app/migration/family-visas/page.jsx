@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Family Visas | Prime Consultancy Consultancy",
+  description:
+    "Comprehensive support for family visas and reunification in Australia.",
+};
 
 const FamilyVisas = () => {
   return (

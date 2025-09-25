@@ -1,9 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
 
+export const metadata = {
+  title: "Temporary Graduate Visa (Subclass 485) | Prime Pacific Consultancy",
+  description:
+    "Comprehensive guidance on the Temporary Graduate Visa (Subclass 485) for Australia. Learn about eligibility, streams, and post-study work opportunities from Prime Pacific Consultancy.",
+};
 const Subclass485TemporaryGraduateVisaAustralia = () => {
   return (
     <>

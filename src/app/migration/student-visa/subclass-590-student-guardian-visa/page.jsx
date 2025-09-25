@@ -1,9 +1,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
 
 import GeneralContent from "@/components/GeneralContent";
 
+export const metadata = {
+  title: "Subclass 590 Student Guardian Visa | Prime Pacific Consultancy",
+  description:
+    "Information and expert guidance for the Subclass 590 Student Guardian Visa in Australia, including eligibility and application tips.",
+};
 const SubclassStudentGuardianVisa = () => {
   return (
     <>

@@ -1,8 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+export const metadata = {
+  title: "Skilled Independent Visa 189 | Prime Pacific Consultancy",
+  description:
+    "Information and expert guidance for the Skilled Independent Visa (Subclass 189) in Australia.",
+};
 
 const SkilledIndependentVisaSC189 = () => {
   return (

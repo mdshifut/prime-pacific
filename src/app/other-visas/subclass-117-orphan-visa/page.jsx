@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Orphan Relative Visa (Subclass 117) | Prime Pacific Consultancy",
+  description:
+    "Expert advice on the Orphan Relative Visa (Subclass 117) for Australia. Learn about eligibility, process, and permanent residency support for orphan relatives from Prime Pacific Consultancy.",
+};
 
 const SubclassOrphanVisa = () => {
   return (

@@ -1,9 +1,9 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-import Services from "./Services";
-import TeamSection from "./TeamSection";
-import GeneralContent from "@/components/GeneralContent";
+export const metadata = {
+  title: "Contact | Prime Pacific Consultancy",
+  description:
+    "Contact Prime Pacific Consultancy for expert migration and visa advice. Get in touch with our team today.",
+};
 
 const AboutUs = () => {
   return (

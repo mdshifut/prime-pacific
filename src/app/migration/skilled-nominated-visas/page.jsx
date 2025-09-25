@@ -2,6 +2,10 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
 import React from "react";
 
+export const metadata = {
+  title: "Skilled Nominated Visas | Prime Consultancy Consultancy",
+  description: "Information and support for Australia Skilled Nominated Visas.",
+};
 import GeneralContent from "@/components/GeneralContent";
 
 const SkilledNominatedVisas = () => {

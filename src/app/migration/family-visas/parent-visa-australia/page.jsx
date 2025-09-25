@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Parent Visa Australia | Prime Consultancy Consultancy",
+  description:
+    "Visa options and support for parents joining children in Australia.",
+};
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
 import React from "react";

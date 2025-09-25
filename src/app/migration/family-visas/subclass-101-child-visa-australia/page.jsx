@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Subclass 101 Child Visa Australia | Prime Consultancy Consultancy",
+  description:
+    "Expert guidance for Subclass 101 Child Visa Australia application.",
+};
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
 import React from "react";

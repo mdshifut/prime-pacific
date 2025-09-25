@@ -4,7 +4,11 @@ import React from "react";
 import Services from "./Services";
 import TeamSection from "./TeamSection";
 import GeneralContent from "@/components/GeneralContent";
-
+export const metadata = {
+  title: "About Us | Prime Pacific Consultancy",
+  description:
+    "Learn about Prime Pacific Consultancy, our origin story, and why choosing a registered migration agent matters for your Australian visa journey.",
+};
 const AboutUs = () => {
   return (
     <>

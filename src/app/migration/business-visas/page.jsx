@@ -1,8 +1,12 @@
-import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+import Breadcrumb from "@/components/Breadcrumb";
+
+export const metadata = {
+  title: "Business Visas | Prime Pacific Consultancy",
+  description:
+    "Information and expert guidance for Australian business visa options, including innovation, investment, and permanent residency pathways.",
+};
 
 const BusinessVisas = () => {
   return (

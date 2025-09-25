@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Visa 300 Prospective Marriage Visa | Prime Consultancy",
+  description:
+    "Guidance for Prospective Marriage Visa (Subclass 300) applications in Australia.",
+};
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
 import React from "react";

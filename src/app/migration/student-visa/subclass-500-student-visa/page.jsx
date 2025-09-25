@@ -1,9 +1,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
 
 import GeneralContent from "@/components/GeneralContent";
 
+export const metadata = {
+  title: "Subclass 500 Student Visa | Prime Pacific Consultancy",
+  description:
+    "Information and expert guidance for the Subclass 500 Student Visa in Australia, including application tips and requirements.",
+};
 const StudentVisa = () => {
   return (
     <>

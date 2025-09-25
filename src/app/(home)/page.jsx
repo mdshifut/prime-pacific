@@ -5,6 +5,19 @@ import Services from "./Services";
 import SuccessSection from "./SuccessSection";
 import TestimonialSection from "./TestimonialSection";
 
+export const metadata = {
+  title: "About Us | Prime Pacific Consultancy",
+  description:
+    "Your Trusted Partner for Australian Visa Solutions. MARA certified consultants offering complete support for migration to Australia.",
+  keywords: [
+    "Australia visa",
+    "migration",
+    "consultancy",
+    "MARA certified",
+    "Prime Pacific Consultancy",
+  ],
+};
+
 export default function Home() {
   return (
     <>

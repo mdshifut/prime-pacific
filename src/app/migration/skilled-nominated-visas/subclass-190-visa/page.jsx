@@ -1,8 +1,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
 import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Subclass 190 Visa | Prime Pacific Consultancy",
+  description:
+    "Information and expert guidance for the Skilled Nominated Visa (Subclass 190) in Australia.",
+};
 
 const Subclass190Visa = () => {
   return (

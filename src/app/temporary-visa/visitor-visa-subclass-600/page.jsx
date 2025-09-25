@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Visitor Visa (Subclass 600) | Prime Pacific Consultancy",
+  description:
+    "Expert guidance on the Visitor Visa (Subclass 600) for Australia. Learn about eligibility, process, and travel opportunities for holidays, family visits, and business from Prime Pacific Consultancy.",
+};
 
 const VisitorVisaSubclass600 = () => {
   return (

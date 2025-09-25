@@ -1,8 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+export const metadata = {
+  title: "Work and Holiday Visa (Subclass 462) | Prime Pacific Consultancy",
+  description:
+    "Expert advice on the Work and Holiday Visa (Subclass 462) for Australia. Learn about eligibility, process, and short-term work and travel opportunities for young adults from Prime Pacific Consultancy.",
+};
 
 const WorkHolidayVisaAustraliaVisa = () => {
   return (

@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Medical Treatment Visa (Subclass 602) | Prime Pacific Consultancy",
+  description:
+    "Expert advice on the Medical Treatment Visa (Subclass 602) for Australia. Learn about eligibility, process, and temporary residency support for medical treatment from Prime Pacific Consultancy.",
+};
 
 const SubclassMedicalTreatmentVisa = () => {
   return (

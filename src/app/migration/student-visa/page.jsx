@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Student Visa | Prime Pacific Consultancy",
+  description:
+    "Information and expert guidance for Australian Student Visas, including application tips and requirements.",
+};
 
 const StudentVisa = () => {
   return (

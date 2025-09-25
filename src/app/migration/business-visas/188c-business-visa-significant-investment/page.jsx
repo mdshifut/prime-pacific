@@ -1,8 +1,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title:
+    "188C Business Visa Significant Investment | Prime Pacific Consultancy",
+  description:
+    "Information and expert guidance for the 188C Significant Investor Stream (Business Innovation and Investment) visa in Australia.",
+};
 
 const BusinessVisas = () => {
   return (

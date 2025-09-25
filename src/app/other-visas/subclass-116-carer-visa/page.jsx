@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Carer Visa (Subclass 116) | Prime Pacific Consultancy",
+  description:
+    "Expert guidance on the Carer Visa (Subclass 116) for Australia. Learn about eligibility, process, and benefits for caring for relatives with medical conditions. Permanent residency support from Prime Pacific Consultancy.",
+};
 
 const SubclassCarerVisa = () => {
   return (

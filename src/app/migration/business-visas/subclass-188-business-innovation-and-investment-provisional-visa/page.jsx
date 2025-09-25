@@ -1,6 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
+
+export const metadata = {
+  title:
+    "Subclass 188 Business Innovation and Investment Visa | Prime Pacific Consultancy",
+  description:
+    "Information and expert guidance for the Subclass 188 Business Innovation and Investment (Provisional) visa in Australia.",
+};
 
 import GeneralContent from "@/components/GeneralContent";
 

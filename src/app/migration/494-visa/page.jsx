@@ -3,7 +3,11 @@ import FeatureContent from "@/components/FeatureContent";
 import React from "react";
 
 import GeneralContent from "@/components/GeneralContent";
-
+export const metadata = {
+  title: "494 Visa | Prime Consultancy Consultancy",
+  description:
+    "Information and guidance for the Subclass 494 Skilled Employer Sponsored Regional Visa.",
+};
 const Four94Visa = () => {
   return (
     <>
@@ -18,6 +22,7 @@ const Four94Visa = () => {
           },
         ]}
       />
+
       <FeatureContent
         subTitle="Choose the 494 Visa"
         title="Your Pathway to Regional Australia and Permanent Residency"

@@ -1,8 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+export const metadata = {
+  title: "Protection Visa (Subclass 866) | Prime Pacific Consultancy",
+  description:
+    "Comprehensive guidance on the Protection Visa (Subclass 866) for refugees and asylum seekers in Australia. Learn about eligibility, process, and expert support from Prime Pacific Consultancy.",
+};
 
 const ProtectionVisa = () => {
   return (

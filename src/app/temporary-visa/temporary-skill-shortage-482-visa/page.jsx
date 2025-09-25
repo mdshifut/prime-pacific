@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+export const metadata = {
+  title:
+    "Temporary Skill Shortage Visa (Subclass 482) | Prime Pacific Consultancy",
+  description:
+    "Expert guidance on the Temporary Skill Shortage Visa (Subclass 482) for Australia. Learn about eligibility, streams, and skilled migration opportunities from Prime Pacific Consultancy.",
+};
 
 const TemporarySkillShortage482Visa = () => {
   return (

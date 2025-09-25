@@ -1,8 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+export const metadata = {
+  title: "Temporary Residency Visa | Prime Pacific Consultancy",
+  description:
+    "Comprehensive guidance on Temporary Residency Visas for Australia. Learn about work, study, and training opportunities with expert support from Prime Pacific Consultancy.",
+};
 
 const TemporaryResidencyVisa = () => {
   return (

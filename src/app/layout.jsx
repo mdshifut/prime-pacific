@@ -1,4 +1,3 @@
-import TopBar from "@/components/TopBar";
 import Header from "@/components/Header";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
@@ -20,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <title>Travisa - Visa &amp; Immigration Website Template</title>
+        <title>Prime Pacific Consultancy</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta name="keywords" />
         <meta name="description" />

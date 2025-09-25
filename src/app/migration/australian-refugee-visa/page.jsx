@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Australian Refugee Visa | Prime Consultancy Consultancy",
+  description:
+    "Support and information for Australian Refugee Visa (Subclass 200) applications.",
+};
 
 const AustralianRefugeeVisa = () => {
   return (

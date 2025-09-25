@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
 import data from "./data";
 import ListTable from "@/components/ListTable";
+export const metadata = {
+  title: "Skilled Occupation List | Prime Pacific Consultancy",
+  description:
+    "Explore the Skilled Occupation List (MLTSSL, STSOL, ROL) for Australia. Find eligible occupations for skilled migration and employer sponsorship, with expert advice from Prime Pacific Consultancy.",
+};
 
 const SkilledOccupationList = () => {
   return (

@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
 
 import GeneralContent from "@/components/GeneralContent";
+export const metadata = {
+  title: "Australia Student Visa Extension | Prime Consultancy Consultancy",
+  description:
+    "Everything you need to know about extending your student visa in Australia.",
+};
 
 const SubclassStudentGuardianVisa = () => {
   return (

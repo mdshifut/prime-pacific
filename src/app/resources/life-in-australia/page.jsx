@@ -1,9 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
 
+export const metadata = {
+  title: "Life in Australia | Prime Pacific Consultancy",
+  description:
+    "Discover life in Australia: quality of life, work-life balance, safety, culture, education, and career opportunities. Expert migration advice from Prime Pacific Consultancy.",
+};
 const LifeInAustralia = () => {
   return (
     <>

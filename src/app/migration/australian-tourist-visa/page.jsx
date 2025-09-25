@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Australian Tourist Visa | Prime Pacific Consultancy",
+  description:
+    "Information and expert guidance for Australian Tourist Visa applications and travel advice.",
+};
 
 const AustralianTouristVisa = () => {
   return (

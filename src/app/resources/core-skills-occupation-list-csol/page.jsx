@@ -1,8 +1,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
 import data from "./data";
 import ListTable from "@/components/ListTable";
+
+export const metadata = {
+  title: "Core Skills Occupation List (CSOL) | Prime Pacific Consultancy",
+  description:
+    "Explore the Core Skills Occupation List (CSOL) for Australia. Find critical occupations for skilled migration and the Skills In Demand (SID) visa, with expert guidance from Prime Pacific Consultancy.",
+};
 
 const CoreSkillsOccupationList = () => {
   return (

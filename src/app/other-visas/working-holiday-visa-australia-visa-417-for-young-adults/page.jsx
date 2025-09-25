@@ -1,8 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FeatureContent from "@/components/FeatureContent";
-import React from "react";
-
 import GeneralContent from "@/components/GeneralContent";
+
+export const metadata = {
+  title: "Working Holiday Visa (Subclass 417) | Prime Pacific Consultancy",
+  description:
+    "Expert advice on the Working Holiday Visa (Subclass 417) for Australia. Learn about eligibility, process, and work/travel opportunities for young adults from Prime Pacific Consultancy.",
+};
 
 const WorkingHolidayVisaAustralia = () => {
   return (
