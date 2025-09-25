@@ -12,25 +12,34 @@ const NavbarDropdown = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const dropdownClickHandler = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (typeof window !== "undefined" && window.innerWidth <= 900)
+      setIsOpen((prev) => !prev);
+  };
   return (
     <li
       className={`navbar-menu-item ${
         isNested ? "has-nested-dropdown" : "has-dropdown"
       } ${className}`}
-      onClick={() => {
-        if (typeof window !== "undefined" && window.innerWidth <= 900)
-          setIsOpen((prev) => !prev);
-      }}
       aria-haspopup="true"
       aria-expanded={isOpen}
     >
       <Link
         href={link || "#"}
-        className={`navbar-dropdown-link ${isActive(link) ? " active" : ""}`}
+        className={`navbar-dropdown-link dropdown-trigger ${
+          isActive(link) ? " active" : ""
+        }`}
       >
-        {label}
+        <span>{label}</span>
+        <span
+          className={`navbar-dropdown-arrow  ${isOpen ? "open" : ""}`}
+          onClick={dropdownClickHandler}
+        >
+          <i className={`fa fa-angle-down `}></i>
+        </span>
       </Link>
-      {/* <span className="navbar-dropdown-arrow">▼</span> */}
 
       <ul
         className={`${isNested ? "nested-dropdown" : "dropdown"}${

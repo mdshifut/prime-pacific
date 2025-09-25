@@ -201,7 +201,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <Link href="/">
-          <img src="/logo.svg" alt="Logo" height={40} />
+          <img src="/logo-t.jpg" alt="Logo" height={40} />{" "}
+          <span>Prime Pacific</span>
         </Link>
       </div>
       <button
@@ -217,6 +218,7 @@ const Navbar = () => {
         {menuItems.map((item, idx) =>
           item.dropdown ? (
             <NavbarDropdown
+              key={item.label}
               items={item.dropdown}
               isActive={isActive}
               label={item.label}
