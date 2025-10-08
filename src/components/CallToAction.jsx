@@ -6,7 +6,7 @@ export default function CallToAction() {
     >
       <div className="container py-5">
         <div className="row g-5">
-          <div className="col-md-9">
+          <div className="col-md-8 col-xl-9">
             <h2>Ready to Start Your Journey to Australia?</h2>
             <p>
               At Prime Pacific Consultancy, we are committed to helping you
@@ -15,7 +15,7 @@ export default function CallToAction() {
               stay, our experts are here to provide the guidance you need
             </p>
           </div>
-          <div className="col-md-3 text-md-end d-flex align-items-center justify-content-md-end justify-content-center">
+          <div className="col-md-4 col-xl-3 text-md-end d-flex align-items-center justify-content-md-end justify-content-center">
             <a className="btn  rounded-pill py-3 px-5" href="contact.html">
               Contact Us
             </a>

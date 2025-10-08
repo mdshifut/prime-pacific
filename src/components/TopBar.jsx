@@ -2,15 +2,15 @@ const TopBar = () => {
   return (
     <div className="container-fluid bg-primary px-5 d-none d-lg-block">
       <div className="row gx-0 align-items-center justify-content-between">
-        <div className="col-lg-5 text-center text-lg-start mb-lg-0">
+        <div className="col-lg-9 text-center text-lg-start mb-lg-0">
           <div className="d-flex">
             <a href="#" className="text-white me-4">
               <i className="fas fa-envelope text-secondary me-2" />
-              Example@gmail.com
+              admin@primepacificconsultancy.com.au
             </a>
             <a href="#" className="text-white me-0">
               <i className="fas fa-phone-alt text-secondary me-2" />
-              +01234567890
+              +61 406 093 752
             </a>
           </div>
         </div>

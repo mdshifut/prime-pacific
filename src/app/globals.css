@@ -1148,8 +1148,8 @@
 .navbar-menu-link {
   display: flex;
   align-items: center;
-  padding: 10px 18px;
-  font-size: 1rem;
+  padding: 10px 10px;
+  font-size: 0.8rem;
   color: var(--bs-primary);
   background: none;
   border: none;
@@ -1161,6 +1161,7 @@
   border-radius: 6px;
   transition: background 0.2s, color 0.2s;
 }
+
 .navbar-menu-link.active {
   background: var(--bs-primary);
   color: var(--bs-white);
@@ -1210,22 +1211,6 @@
   background: var(--bs-primary);
 }
 
-.nested-dropdown .navbar-menu-link {
-  display: flex;
-  align-items: center;
-  padding: 10px 18px;
-  font-size: 1rem;
-  color: var(--bs-white);
-  background: none;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  border-radius: 6px;
-  transition: background 0.2s, color 0.2s;
-}
 /* Show dropdowns on hover (desktop) or open class (mobile) */
 .navbar-menu-item.has-dropdown:hover > .dropdown,
 .dropdown.open {
@@ -1248,13 +1233,22 @@
 }
 .navbar-dropdown-link {
   display: block;
-  padding: 12px 22px;
+  padding: 12px 10px;
   color: var(--bs-primary);
   text-decoration: none;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   border-radius: 6px;
   transition: background 0.2s, color 0.2s;
+  font-weight: 500;
+}
+
+@media (min-width: 1300px) {
+  .navbar-menu-link,
+  .navbar-dropdown-link {
+    padding: 10px 18px;
+    font-size: 1rem;
+  }
 }
 .navbar-dropdown-link.active {
   background: var(--bs-primary);
