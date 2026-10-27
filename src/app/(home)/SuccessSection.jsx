@@ -68,7 +68,7 @@ const SuccessSection = () => {
             <a
               className="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp"
               data-wow-delay="0.1s"
-              href="/contact.html"
+              href="/contact/"
             >
               Book now
             </a>

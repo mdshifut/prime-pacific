@@ -16,7 +16,7 @@ export default function CallToAction() {
             </p>
           </div>
           <div className="col-md-4 col-xl-3 text-md-end d-flex align-items-center justify-content-md-end justify-content-center">
-            <a className="btn  rounded-pill py-3 px-5" href="contact.html">
+            <a className="btn  rounded-pill py-3 px-5" href="/contact/">
               Contact Us
             </a>
           </div>
