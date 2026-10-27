@@ -3,42 +3,42 @@ import React from "react";
 const servicesData = [
   {
     title: "Regional Visa",
-    image: "travel-1.jpg",
+    image: "/travel-1.jpg",
     description:
       "Discover exciting opportunities in Australia’s regional areas. The Regional Visa lets you live, work, and study in thriving communities while enjoying a clear pathway to permanent residency.",
     delay: "0.1s",
   },
   {
     title: "Business Visa",
-    image: "travel-2.jpg",
+    image: "/travel-2.jpg",
     description:
       "Unlock new opportunities in Australia’s thriving economy. The Business Visa is designed for innovators, investors, and business owners who want to contribute to and benefit from Australia’s dynamic market.",
     delay: "0.3s",
   },
   {
     title: "Skilled Visa",
-    image: "travel-3.jpg",
+    image: "/travel-3.jpg",
     description:
       "Turn your skills into a future in Australia. The Skilled Visa helps professionals build stable careers while supporting the country’s growing industries.",
     delay: "0.5s",
   },
   {
     title: "Students Visa",
-    image: "travel-4.jpg",
+    image: "/travel-4.jpg",
     description:
       "Study in Australia’s top universities and colleges. The Student Visa helps you achieve your academic goals while preparing for global opportunities.",
     delay: "0.1s",
   },
   {
     title: "Family Visa",
-    image: "travel-5.jpg",
+    image: "/travel-5.jpg",
     description:
       "Bring your family closer with the Family Visa. It ensures a secure future together while building your life in Australia.",
     delay: "0.3s",
   },
   {
     title: "Tourist Visa",
-    image: "travel-6.jpg",
+    image: "/travel-6.jpg",
     description:
       "Discover Australia’s beauty and culture. The Tourist Visa is perfect for holidays, visiting loved ones, or short-term travel experiences.",
     delay: "0.5s",

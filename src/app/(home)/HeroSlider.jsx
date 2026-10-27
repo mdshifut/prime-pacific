@@ -14,7 +14,7 @@ const HeroSlider = () => {
   return (
     <Slider {...settings} className="hero-carousel">
       <div className="carousel-item ">
-        <img src="slide/slide1.jpg" className="img-fluid" alt="Image" />
+        <img src="/slide/slide1.jpg" className="img-fluid" alt="Image" />
         <div className="carousel-caption">
           <div className="text-center p-4" style={{ maxWidth: 900 }}>
             <h4
@@ -48,7 +48,7 @@ const HeroSlider = () => {
         </div>
       </div>
       <div className="carousel-item">
-        <img src="slide/slide2.jpg" className="img-fluid" alt="Image" />
+        <img src="/slide/slide2.jpg" className="img-fluid" alt="Image" />
         <div className="carousel-caption">
           <div className="text-center p-4" style={{ maxWidth: 900 }}>
             <h5

@@ -3,28 +3,28 @@ import React from "react";
 const teamData = [
   {
     name: "Bilal Sarwar",
-    image: "teams/testimonial-1.jpg",
+    image: "/teams/testimonial-1.jpg",
     agent: "MARA Agent: 2518813",
     description: "Expert in complex migration matters.",
     delay: "0.1s",
   },
   {
     name: "Dr Asraful Alam",
-    image: "teams/testimonial-2.jpg",
+    image: "/teams/testimonial-2.jpg",
     agent: "MARA Agent: 2518813",
     description: "Visa Specialist",
     delay: "0.1s",
   },
   {
     name: "Hanif Diwan",
-    image: "teams/testimonial-3.jpg",
+    image: "/teams/testimonial-3.jpg",
     agent: "MARA Agent: 2518813",
     description: "Visa and Student Consultant",
     delay: "0.1s",
   },
   {
     name: "Junaid Diwan",
-    image: "teams/testimonial-1.jpg",
+    image: "/teams/testimonial-1.jpg",
     agent: "MARA Agent: 2518813",
     description: "Experienced in student course selection.",
     delay: "0.1s",

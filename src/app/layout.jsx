@@ -14,12 +14,15 @@ const poppins = Poppins({
   weight: ["200", "300", "400", "500", "600"],
 });
 
+export const metadata = {
+  title: "Prime Pacific Consultancy",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <title>Prime Pacific Consultancy</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta name="keywords" />
         <meta name="description" />

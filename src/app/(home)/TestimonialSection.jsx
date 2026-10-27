@@ -14,21 +14,21 @@ var settings = {
 const testimonialsData = [
   {
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.",
-    image: "testimonial-1.jpg",
+    image: "/testimonial-1.jpg",
     name: "Person Name",
     profession: "Profession",
     stars: 5,
   },
   {
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.",
-    image: "testimonial-2.jpg",
+    image: "/testimonial-2.jpg",
     name: "Person Name",
     profession: "Profession",
     stars: 5,
   },
   {
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.",
-    image: "testimonial-3.jpg",
+    image: "/testimonial-3.jpg",
     name: "Person Name",
     profession: "Profession",
     stars: 5,
